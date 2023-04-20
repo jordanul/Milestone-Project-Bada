@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=Lato:wght@300&family=Poppins&family=Shadows+Into+Light&family=Sono&family=Zeyada&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+#logo {
+  left: 500px;
+  top: 5px;
+ position: relative;
+ padding-bottom: 0;
+}
+
+
+#logo2{
+    font-family: 'Abril Fatface', cursive;
+    color: #8d88d1;
+    text-transform: uppercase;
+    float:left;
+    font-size: 180%;
+}
+
+header{
+    background-color: white;
+}
+#menu {
+    font-family: 'Lato', sans-serif;
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+  }
+  
+  #logo, #menu {
+    line-height: 60px;
+  }
+  
+  #menu li {
+    float: right;
+    margin-right: 30px;
+  }
+  
+  #menu a {
+    text-decoration: none;
+    color: inherit;
+    
+  }
+  #menu a:hover {
+    border-bottom: 1px solid #777777;
+  }
+
+  #sale-banner {
+    height: 600px;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1617464629340-d727a73d4f69?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-repeat: no repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+  }
+
+  #easter-sale {
+    font-size: 200%;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+    color: white;
+
+    width: 300px;
+    height: 300px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+
+
+    bottom: 180px;
+    right: 150px;
+    
+    position: absolute;
+    overflow:hidden;
+    
+  }
+
+  
+
+#easter-sale a:link { 
+  text-decoration: none; 
+}
+
+
+#easter-sale a:visited { 
+  text-decoration: none; 
+  color: white;
+}
+
+
+#easter-sale a:hover { 
+  text-decoration: none; 
+}
+
+
+#easter-sale a:active { 
+  text-decoration: none; 
+}
+
+#accessories {
+    height: 800px;
+    width: 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/2700/4308/products/beaba-geneva-changing-bag-cherry-blossom-5_d72ce169-1b63-4d70-9402-6cde08a243ae_2048x.jpg");
+    background-repeat: no repeat;
+    background-position-x: center;
+    background-position-y: center;
+  
+    padding-top: 0px;
+    border-style: solid;
+    overflow: hidden;
+}
+
+#accessories-text{
+  font-size: 200%;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 4px;
+  color: white;
+
+  width: 300px;
+  height: 200px;
+
+  padding-top: 40px;
+  padding-left: 10px;
+
+
+  top: 150px;
+  right: 150px;
+  bottom: 10px;
+  left: 1400px;
+  
+  position: relative;
+}
+
+#accessories-text a:link { 
+  text-decoration: none; 
+}
+
+
+#accessories-text a:visited { 
+  text-decoration: none; 
+  color:white;
+}
+
+
+#accessories-text a:hover { 
+  text-decoration: none; 
+}
+
+
+#accessories-text a:active { 
+  text-decoration: none; 
+}
+
+footer{
+  height: 150px;
+}
+
+.social-networks{
+text-align: center;  
+}
+
+.social-networks li{
+  display: inline;
+}
+
+#s-n{
+  font-size: 160%;
+  margin: 1%;
+  padding-top: 1px;
+  padding-left: 5px;
+  padding-bottom: 1px;
+  padding-right: 5px;
+  color: #B0CFFA;
+ 
+ bottom: 0;
+  position: relative;
+}
+
+#s-n a:link { 
+  text-decoration: none; 
+}
+
+
+#s-n a:visited { 
+  text-decoration: none; 
+  color:#B0CFFA;
+}
+
+
+#s-n a:hover { 
+  text-decoration: none; 
+}
+
+
+#s-n a:active { 
+  text-decoration: none; 
+}
+
+form{
+  width: 1000%;
+}
+
+form h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 360%;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #4C52A9;
+  padding-bottom: 0px;
+}
+
+form h3{
+  padding-top: 0px;
+}
+
+form label {
+  font-size: 120%;
+}
+
+#age {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 200;
+  font-size: 200%;
+  letter-spacing: 1px;
+  color: #FFD1D5;
+}
+
+.text-input {
+  background: transparent;
+}
+
+.bagimgs {
+  clear: both;
+  line-height: 50px;
+  column-count: 4;
+  column-gap: 10px;
+}
+.aboutus {
+  font-family: 'Poppins', sans-serif;
+}
+
+.contents {
+  font-size: 120%;
+  text-align: justify;
+
+}
+.abheading {
+  font-size: 120%;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.signature {
+  font-family: 'Zeyada', cursive;
+  padding-bottom: 0px;
+}
+
+.stinksignature {
+  font-family: 'Shadows Into Light', cursive;
+  padding-top: 0px;
+}
+
+div > img {
+  object-fit: cover;
+}
+
+.section-titles {
+  font-family: 'Poppins', sans-serif;
+  font-size: 300%;
+  font-weight: 700;
+}
+
+.img-titles {
+  font-weight: 700;
+}
